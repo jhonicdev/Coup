@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <title>Coup</title>
@@ -11,12 +12,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-  <div class="container">
+  <div class="container" id="home-screen">
     <h1>🃏 Coup</h1>
 
-    <button class="primary">CRIAR SALA</button>
-    <button class="secondary">ENTRAR NA SALA</button>
+    <button class="primary" id="createRoomBtn">Criar sala</button>
+    <button class="secondary" id="joinRoomBtn">Entrar em sala</button>
   </div>
+
+  <div class="container" id="join-screen" style="display: none;">
+    <h1>Entrar na sala</h1>
+
+    <input type="text" id="roomCode" placeholder="Código da sala" />
+    <button class="primary" id="confirmJoinBtn">Entrar</button>
+    <button class="secondary" id="backBtn">Voltar</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

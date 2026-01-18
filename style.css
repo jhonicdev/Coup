@@ -55,3 +55,14 @@ button:hover {
   transform: translateY(-2px);
   transition: 0.2s;
 }
+
+input {
+  display: block;
+  width: 220px;
+  margin: 0.75rem auto;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+}
